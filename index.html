@@ -10,15 +10,22 @@
 <body>
     <div class="container">
         <h1>Benvenuto!</h1>
-        <h2>Fai la tua mossa:</h2>
+        <div class="bet">
+            <p>Il tuo credito rimanente è: <span id="totalAmount"></span>€</p>
+            <label for="betAmount">Inserisci l'importo della tua scommessa:</label>
+            <input type="number" id="betAmount" value="0" min="0">
+        </div>
         <div class="azioni">
-            <button class="sasso" id="sasso"></button>
-            <button class="carta" id="carta"></button>
-            <button class="forbici" id="forbici"></button>
+            <h2>Fai la tua mossa:</h2>
+            <!-- Modifica i pulsanti per chiamare placeBet con la scelta -->
+            <button class="bottone sasso" id="sasso" onclick="placeBet('Sasso')"></button>
+            <button class="bottone carta" id="carta" onclick="placeBet('Carta')"></button>
+            <button class="bottone forbici" id="forbici" onclick="placeBet('Forbici')"></button>
         </div>
         <p class="risultato" id="risultato"></p>
     </div>
-     
-    <script src="scriptBody.js"></script>
+
+    <script src="scriptGameBody.js"></script>
+    <script src="scriptBetBody.js"></script>
 </body>
 </html>

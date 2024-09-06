@@ -28,13 +28,6 @@ function Vincitore(sceltaPlayer, sceltaComputer)
     }
 }
 
-//Funzione per lo svolgimento base del gioco e mostra a schermo il vincitore
-function gioco(sceltaPlayer)
-{
-    const sceltaComputer = ComputerChoise();
-    const risultato = Vincitore(sceltaPlayer, sceltaComputer);
-    document.getElementById('risultato').innerText = `Hai scelto ${sceltaPlayer}.\n Il computer ha scelto ${sceltaComputer}.\n ${risultato}`;
-}
 
 //Input preso dall'utente in base al pulsante premuto
 document.getElementById("sasso").addEventListener("click", 
