@@ -11,7 +11,7 @@ function Vincitore(sceltaPlayer, sceltaComputer)
 {
     if(sceltaPlayer === sceltaComputer)
     {
-        return 'Pareggio';
+        return 'Pareggio!';
     }
     else if
     (
@@ -27,26 +27,3 @@ function Vincitore(sceltaPlayer, sceltaComputer)
         return 'Hai vinto!';
     }
 }
-
-
-//Input preso dall'utente in base al pulsante premuto
-document.getElementById("sasso").addEventListener("click", 
-    function()
-    {
-        gioco('Sasso'); 
-    }
-);
-
-document.getElementById("carta").addEventListener("click",
-    function()
-    {
-        gioco('Carta');
-    }
-);
-
-document.getElementById("forbici").addEventListener("click",
-    function()
-    {
-        gioco('Forbici');
-    }
-);

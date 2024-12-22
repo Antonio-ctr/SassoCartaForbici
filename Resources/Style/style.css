@@ -3,8 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: auto;
-    font-family: "Comic Neue", cursive;
+    font-family: "Comic Neue";
     font-weight: 700;
     font-style: normal;
     box-sizing: border-box;
@@ -19,52 +18,51 @@
 }
 
 h1{
-
     color: #fff;
-    font-size: 100px;
+    font-size: 700%;
 }
 
 h2{
     color: #000000;
-    font-size: 50px;
+    font-size: 350%;
 }
 
 input{
-    width: 150px;
-    font-size:50px;
+    width: 10%;
+    font-size:100%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5%;
     background-color: #fff;
     border: #00aeda;
 }
 
 span{
-    font-size: 50px;
+    font-size: 100%;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 100%;
 }
 
 .bet{
-    font-size: 50px;
+    font-size: 350%;
     color: #000000;
 }
 
 .bottone{
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
-    border-width: 5px;
+    border-width: 200px;
     background-size: 100%;
 }
 
-.sasso{
-    background-image: url(Resources/Sasso.png);
+#sasso{
+    border-radius: 50%;
 }
-.carta{
-    background-image: url(Resources/Carta.png);
+#carta{
+    border-radius: 50%;
 }
-.forbici{
-    background-image: url(Resources/Forbici.png);
+#forbici{
+    border-radius: 50%;
 }
 
 .risultato{
